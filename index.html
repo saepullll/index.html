@@ -1,0 +1,60 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Sederhana</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            border: 3px solid black;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        /* Hesti */
+        .header {
+            border: 2px solid #00bcd4;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Content */
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .box {
+            width: 30%;
+            height: 150px;
+            border: 2px solid #cddc39;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+<body>
+
+<section class="container">
+    
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="box">Content</div>
+        <div class="box">Content</div>
+        <div class="box">Content</div>
+    </div>
+
+</section>
+
+</body>
+</html>
